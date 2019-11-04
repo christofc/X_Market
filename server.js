@@ -772,7 +772,7 @@ function fetch_prices() {
             io.emit('data_propagation', { data: common_pairs });
 
             // save_data(common_pairs)
-            console.log(common_pairs)
+            // console.log(common_pairs)
 
             // Save to database.
             var db = mongoose.connection;
